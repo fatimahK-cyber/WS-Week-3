@@ -3,7 +3,7 @@
 
 /* The body tag style applies to all elements on the page */
 
-.homepage,.contactpage, .projectspage {
+.homepage, .contactpage, .projectspage {
     
     background: linear-gradient(
         to right,

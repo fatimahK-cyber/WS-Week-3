@@ -1,29 +1,15 @@
 /* CSS Document */
 @charset "UTF-8";
 
+body {
 
-
-.homepage, .contactpage, .projectspage {
-    
-    background: linear-gradient(
-        to right,
-        rgba(21, 69, 133, 1) 0%,   
-        rgba(22, 133, 197, 1) 35%, 
-        rgba(26, 158, 235, 1) 70%,
-        rgba(42, 191, 240, 1) 100% 
-    );
+    background: rgb(243, 243, 238); 
 
     font-family: Verdana, Geneva, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
 }
 
-/* angled gradient on about me page only*/
-.aboutpage {
-     min-height: 100vh;
-    background: linear-gradient(120deg, rgba(21, 69, 133, 1), rgba(42, 191, 240, 1));
-}
 header, footer
 {
    background-color: lightslategray;

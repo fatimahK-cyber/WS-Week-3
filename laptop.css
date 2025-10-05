@@ -1,6 +1,6 @@
 /* CSS Document */
 @charset "UTF-8";
-/* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
+
 /* The body tag style applies to all elements on the page */
 
 body {
@@ -17,6 +17,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* angled gradient on about me page only*/
+.about-page {
+    background: linear-gradient(120deg, rgba(21, 69, 133, 1), rgba(42, 191, 240, 1));
+}
+
 header, footer
 {
    background-color: lightslategray;

@@ -13,6 +13,12 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+.aboutpage {
+     min-height: 100vh;
+    background: linear-gradient(120deg, rgba(21, 69, 133, 1), rgba(42, 191, 240, 1));
+}
+
 header, footer
 {
    background-color: lightslategray;
@@ -32,8 +38,7 @@ address
 
     margin-left: auto;
     margin-right: auto;
-    /*background-color: blue;*/
-    background-color: whitesmoke;
+
 }
 
 /* The right-column ID style is floated right */

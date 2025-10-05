@@ -1,24 +1,29 @@
 /* CSS Document */
 @charset "UTF-8";
-/* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
-/* The body tag style applies to all elements on the page */
-body {
-    /*background-color: rgb(0, 0, 0);*/
-    background: rgb(243, 243, 238); 
-    background: -moz-linear-gradient(left, rgb(40, 90, 199) 0%, rgb(82, 166, 227) 100%); 
-    background: -webkit-linear-gradient(left, rgb(81, 116, 190) 0%, rgb(82, 166, 227) 100%); 
-    background: -o-linear-gradient(left, rgb(40, 90, 199) 0%, rgb(93, 153, 196) 100%); 
-    background: linear-gradient(to right,rgb(68, 102, 175) 0%,rgb(139, 159, 174) 100%);
+
+
+
+.homepage, .contactpage, .projectspage {
+    
+    background: linear-gradient(
+        to right,
+        rgba(21, 69, 133, 1) 0%,   
+        rgba(22, 133, 197, 1) 35%, 
+        rgba(26, 158, 235, 1) 70%,
+        rgba(42, 191, 240, 1) 100% 
+    );
+
     font-family: Verdana, Geneva, Arial, sans-serif;
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
+/* angled gradient on about me page only*/
 .aboutpage {
      min-height: 100vh;
     background: linear-gradient(120deg, rgba(21, 69, 133, 1), rgba(42, 191, 240, 1));
 }
-
 header, footer
 {
    background-color: lightslategray;

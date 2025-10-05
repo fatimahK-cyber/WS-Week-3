@@ -3,7 +3,7 @@
 
 /* The body tag style applies to all elements on the page */
 
-body {
+.homepage,.contactpage, .projectspage {
     
     background: linear-gradient(
         to right,
@@ -19,7 +19,7 @@ body {
 }
 
 /* angled gradient on about me page only*/
-.about-page {
+.aboutpage {
     background: linear-gradient(120deg, rgba(21, 69, 133, 1), rgba(42, 191, 240, 1));
 }
 

@@ -46,3 +46,7 @@ Here is the colour scheme:
 .My-Color-Theme-4-rgba { color: rgba(85, 138, 163, 1); }
 .My-Color-Theme-5-rgba { color: rgba(21, 69, 133, 1); }
 .My-Color-Theme-6-rgba { color: rgba(255, 255, 255, 1); }
+
+References:
+I used the following website to get help in understanding how to make the gradient better:
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient

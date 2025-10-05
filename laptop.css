@@ -120,7 +120,7 @@ background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,
 
 video
 { 
-    width: 400px; 
+    max-width: 100%; 
     padding: 15px; 
     margin: 15px; 
     background-color:black; 

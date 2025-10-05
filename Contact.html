@@ -1,11 +1,19 @@
 <html>
     <head>
         <title>Contact Me</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" type="text/css" href="laptop.css" media="only screen and (min-width:960px)">
+
+        <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
+
+        <link rel="stylesheet" type="text/css" href="style.css" media="only screen and max-width:480px">
     </head>
     <body>
-        <div id="wrapper">
-              <header>
+
+    <div class="container">
+        <header>
                 <h1> Contact Me here</h1>
                 <p>To get in touch with me, please fill out the form below. </p>
                 <nav>
@@ -15,7 +23,10 @@
                     <a href="Contact.html">Contact Me</a>
                 </nav>
             </header>
-            <form action="mailto:ahmed.sheikh@ontariotechu.net?subject=Feedback from website"
+
+        <div id="wrapper" >
+              
+            <form action="mailto:fatimah.kamal@ontariotechu.net?subject=Feedback from website"
             enctype="text/plain" method="post" name="ContactForm"
             >
             <p>
@@ -47,6 +58,9 @@
                 <input type="submit" value="Submit">
             </p>
             </form>
+
+        </div>
+  
             <footer>
                 <h5>@2025 Made By Fatimah Kamal </h5>
                 <p>Contact: <a href="fatimah.kamal@ontariotechu.net">fatimah.kamal@ontariotechu.net</a></p>
@@ -57,6 +71,7 @@
                     <a href="Contact.html">Contact Me</a>
                 </nav>
             </footer>
-        </div>
+           
+    </div>
     </body>
 </html>

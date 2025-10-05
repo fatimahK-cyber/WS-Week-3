@@ -2,16 +2,20 @@
 @charset "UTF-8";
 /* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
 /* The body tag style applies to all elements on the page */
+
 body {
-    /*background-color: rgb(0, 0, 0);*/
-    background: rgb(243, 243, 238); 
-    background: -moz-linear-gradient(left, rgb(40, 90, 199) 0%, rgb(82, 166, 227) 100%); 
-    background: -webkit-linear-gradient(left, rgb(81, 116, 190) 0%, rgb(82, 166, 227) 100%); 
-    background: -o-linear-gradient(left, rgb(40, 90, 199) 0%, rgb(93, 153, 196) 100%); 
-    background: linear-gradient(to right,rgb(68, 102, 175) 0%,rgb(139, 159, 174) 100%);
+    
+    background: linear-gradient(
+        to right,
+        rgba(21, 69, 133, 1) 0%,   /* Theme-5: Deep Navy Blue — primary base, dark starting tone */
+        rgba(22, 133, 197, 1) 35%, /* Theme-2: Standard Blue — transition color, adds vibrancy */
+        rgba(26, 158, 235, 1) 70%, /* Theme-1: Bright Sky Blue — mid-light tone */
+        rgba(42, 191, 240, 1) 100% /* Theme-3: Light Aqua — highlight end, soft finish */
+    );
+
     font-family: Verdana, Geneva, Arial, sans-serif;
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 header, footer
 {
